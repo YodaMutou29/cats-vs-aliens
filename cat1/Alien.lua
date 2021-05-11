@@ -3,7 +3,7 @@ Alien = Class{}
 local GRAVITY = 10
 
 function Alien:init()
-    self.image = love.graphics.newImage('alien2.png')
+    self.image = love.graphics.newImage('alien.png')
     self.x = (WINDOW_WIDTH / 2) - 32
     self.y = WINDOW_HEIGHT - 100
 
